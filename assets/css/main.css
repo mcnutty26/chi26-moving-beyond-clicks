@@ -1831,6 +1831,45 @@ button,
           .posts article:last-child:after {
             display: none; } }
 
+/*Added by Farzaneh for funding*/
+#footer .funding-logos {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+#footer .logo-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 1em;
+  flex-wrap: wrap;
+}
+
+#footer .logo-row img {
+  height: 120px;
+  width: auto;
+  max-width: none;
+}
+
+/* Optional emphasis differences */
+#footer .logo-row img.eu-logo {
+  height: 120px;
+}
+
+#footer .logo-row img.project-logo {
+  height: 120px;
+}
+
+#footer .funding-text {
+  font-size: 0.8em;
+  line-height: 1.5;
+  max-width: 900px;
+  margin: 0.25em auto;
+  opacity: 0.85;
+}
+
+
 /* Wrapper */
 #wrapper {
   display: -moz-flex;
